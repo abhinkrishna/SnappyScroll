@@ -1,0 +1,25 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+.snappyContainer-mandatory {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.snappyContainer-proximity {
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.window {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+.bg-purple {background: #6F1E51}
+.bg-berry {background: #B53471}
+.bg-blues {background: #0a3d62}
+.bg-sky {background: #34ace0}
+.bg-dark {background:  #2d3436}
+.bg-lite {background: #dfe6e9}

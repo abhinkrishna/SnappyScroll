@@ -2,7 +2,15 @@ body, html {
   margin: 0px;
   padding: 0px;
   color: #fff;
+  font-family: sans-serif;
 }
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Code for snappyScroll starts */
+
 .snappyContainer-mandatory {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -13,13 +21,26 @@ body, html {
   overflow-y: scroll;
   height: 100vh;
 }
-.window {
+.windows {
   scroll-snap-align: start;
+  width: 100%;
   height: 100vh;
 }
+
+/* Code for snappyScroll ends */
+
+
+.bg-blues {background: #0a3d62}
 .bg-purple {background: #6F1E51}
 .bg-berry {background: #B53471}
-.bg-blues {background: #0a3d62}
 .bg-sky {background: #34ace0}
 .bg-dark {background:  #2d3436}
-.bg-lite {background: #dfe6e9}
+
+.text-center {
+  text-align: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
